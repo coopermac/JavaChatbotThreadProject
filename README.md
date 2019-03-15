@@ -10,4 +10,4 @@ Name of ChatBots: unknown
 
 
 
-Type of ChatBots: Sport related
+Type of ChatBots: Sports related
