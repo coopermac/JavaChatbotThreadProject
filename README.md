@@ -1,6 +1,6 @@
 # JavaChatbotThreadProject
-Seamus F and Cooper M Chat Bots
+Seamus F and Cooper M ChatBots
 
-Assignment: make two chat bots be able to talk to each other
-Name of Chat Bots: unknown
-Type of Chat Bots: Sport related
+Assignment: make two chatbots be able to talk to each other
+Name of ChatBots: unknown
+Type of ChatBots: Sport related
