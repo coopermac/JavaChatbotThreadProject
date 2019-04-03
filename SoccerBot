@@ -1,0 +1,30 @@
+public class SoccerBot extends Chatbot
+{
+public SoccerBot()
+   {
+      myBigkick = 200;  // Yards
+      myQuickness = 20; // Mph
+      myVictories = 11; // # of victories 
+
+   }
+ public int getBigkick()
+ {
+   return myBigkick;    
+ }
+ public void setBigkick(int bigkick)  
+ {
+   myBigkick = bigkick;
+ }
+public int getmyQuickness()
+ {
+   return myQuickness;
+ }
+
+ ////////////////////////////////////////
+ 
+public int myBigkick;
+public int myQuickness;
+public int myVictories;
+public boolean myAdditude;
+
+}
