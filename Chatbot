@@ -1,0 +1,33 @@
+//Cooper McCaffrey
+//Seamus Filoon 
+public class Chatbot
+{
+   // default constructor
+   
+   // accessors
+   public String getGreeting()
+   {
+      return greetings[(int) (Math.random() * greetings.length)];
+   }
+
+   public String getgoodbyes()
+   {
+      return goodbyes[(int) (Math.random() * goodbyes.length)];
+   }
+
+   
+   
+   // instance fields (aka properties)
+   private String[] greetings = {        // Greetings
+    "Hello","What's up", "Howdy","Greetings",   }; 
+
+   public String[] goodbyes = {         // Goodbyes
+     "Bye",                 
+     "Goodbye", 
+     "See you later", 
+     "See you soon", 
+     "Adios",             // Spanish
+     "Au revoir",         // French
+     "Ciao"};             // Italian  
+}
+
