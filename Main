@@ -1,0 +1,28 @@
+//Cooper McCaffrey
+//Seamus Filoon 
+
+class Main 
+{
+   public static void main(String[] args)
+   {
+      FootballBot footballBot = new FootballBot();
+      SoccerBot SoccerBot = new SoccerBot();
+      System.out.println("FootballBot: " + footballBot.getGreeting()); // FootballBot's greeting 
+      System.out.println("SoccerBot: " + SoccerBot.getGreeting()); // SoccerBot's greeting  
+      System.out.println("FootballBot: My speed is " + footballBot.mySpeed); // how fast is FootballBot?
+      System.out.println("SoccerBot: My quickness is " + SoccerBot.myQuickness); // How fast is SoccerBot?
+      System.out.println("FootballBot: WoW! you are so fast!!!"); // complement to SoccerBot
+      System.out.println("SoccerBot: Yes, i'm the fastest on my team! "); // responce from complement
+      System.out.println("SoccerBot: How many people have you tackled? "); // question from SoccerBot
+      System.out.println("FootballBot: I have tackled over " + footballBot.myBigtackle + " people!!!"); // # of people that FootballBot has tackled
+      System.out.println("SoccerBot: That is a lot of people! "); // complement from SoccerBot
+      System.out.println("FootballBot: Yes, yes it is a lot of people! "); // responce from complement
+      System.out.println("FootballBot: How far can you kick a ball? "); // question from FootballBot
+      System.out.println("SoccerBot: I can kick a ball " + SoccerBot.myBigkick + " yards!" ); // answer from SoccerBot
+      System.out.println("FootballBot: Thats a big kick!"); // complement from FootballBot
+      System.out.println("SoccerBot: I have the biggest kick in all the land!"); // responce from compliment 
+      System.out.println("SoccerBot: " + SoccerBot.getgoodbyes()); // goodbye from SoccerBot
+      System.out.println("FootballBot: " + footballBot.getgoodbyes()); // goodbye from FootballBot
+   }
+
+}
