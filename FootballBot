@@ -1,0 +1,33 @@
+public class FootballBot extends Chatbot
+{
+public FootballBot()
+   {
+      myBigtackle = 100; // Power opf tackle 
+      mySpeed = 15; // 15 mph
+   }
+ public int getBigtackle()
+ {
+   return myBigtackle;
+ }
+ public void setBigtackle(int Bigtackle)  
+ {
+   myBigtackle = Bigtackle;
+ }
+public int getmySpeed()
+ {
+   return mySpeed;
+ }
+
+///////////////////////////////////////////////
+
+private String[] greetings;
+public int myBigtackle;
+public int mySpeed;
+private String myVictories;
+private boolean myAdditude;
+
+}
+
+ 
+ 
+ 
