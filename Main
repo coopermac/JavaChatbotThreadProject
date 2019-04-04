@@ -7,6 +7,7 @@ class Main
    {
       FootballBot footballBot = new FootballBot();
       SoccerBot SoccerBot = new SoccerBot();
+      GolfBot GolfBot = new GolfBot();
       System.out.println("FootballBot: " + footballBot.getGreeting()); // FootballBot's greeting 
       System.out.println("SoccerBot: " + SoccerBot.getGreeting()); // SoccerBot's greeting  
       System.out.println("FootballBot: My speed is " + footballBot.mySpeed); // how fast is FootballBot?
@@ -23,6 +24,21 @@ class Main
       System.out.println("SoccerBot: I have the biggest kick in all the land!"); // responce from compliment 
       System.out.println("SoccerBot: " + SoccerBot.getgoodbyes()); // goodbye from SoccerBot
       System.out.println("FootballBot: " + footballBot.getgoodbyes()); // goodbye from FootballBot
-   }
+      System.out.println("");
+      System.out.println("");
+      System.out.println("SoccerBot: Hello again, I brought a friend!");
+      System.out.println("FootballBot: Cool! I would love to meet him!");
+      System.out.println("GolfBot: Good day FootballBot! Im GolfBot, pleasure to meet you!");
+      System.out.println("FootballBot: Nice to meet you too! How far can you drive a ball?");
+      System.out.println("GolfBot: I can drive a ball " + GolfBot.myBigswing + " yards");
+      System.out.println("FootballBot: That is one long drive! Maybe you can teach me some day! ");
+      System.out.println("GolfBot: Maybe some day!");
+      System.out.println("SoccerBot: You should see him out on the course! He can swing so fast!");
+      System.out.println("FootballBot: Oh yeah? How fast? ");
+      System.out.println("GolfBot: I can swing my club " + GolfBot.mySwingspeed + "mph");
+      System.out.println("SoccerBot: What time do you play at? FootballBot and I would like to come and watch!");
+      System.out.println("GolfBot: I tee off at " + GolfBot.myTeetime + "am tomorrow");
+      System.out.println("SoccerBot and FootballBot: See you then!");
+      System.out.println("GolfBot: " + GolfBot.getgoodbyes());
 
-}
+      
