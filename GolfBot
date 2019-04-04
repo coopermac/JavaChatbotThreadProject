@@ -1,0 +1,30 @@
+public class GolfBot extends Chatbot
+{
+public GolfBot()
+   {
+      myBigswing = 400;  // Yards
+      mySwingspeed = 60; // Mph 
+      myTeetime = 10; // tee time 
+
+   }
+ public int getBigswing()
+ {
+   return myBigswing;    
+ }
+ public void setBigswing(int bigswing)  
+ {
+   myBigswing = bigswing;
+ }
+public int getmySwingspeed()
+ {
+   return mySwingspeed;
+ }
+
+ ////////////////////////////////////////
+ 
+public int myBigswing;
+public int mySwingspeed;
+public int myTeetime;
+
+
+}
