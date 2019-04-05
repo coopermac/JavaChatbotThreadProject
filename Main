@@ -8,6 +8,7 @@ class Main
       FootballBot footballBot = new FootballBot();
       SoccerBot SoccerBot = new SoccerBot();
       GolfBot GolfBot = new GolfBot();
+      CaddieBot CaddieBot = new CaddieBot();
       System.out.println("FootballBot: " + footballBot.getGreeting()); // FootballBot's greeting 
       System.out.println("SoccerBot: " + SoccerBot.getGreeting()); // SoccerBot's greeting  
       System.out.println("FootballBot: My speed is " + footballBot.mySpeed); // how fast is FootballBot?
@@ -40,5 +41,22 @@ class Main
       System.out.println("GolfBot: I tee off at " + GolfBot.myTeetime + "am tomorrow");
       System.out.println("SoccerBot and FootballBot: See you then!");
       System.out.println("GolfBot: " + GolfBot.getgoodbyes());
+      System.out.println("");
+      System.out.println("*The next day*");
+      System.out.println("");
+      System.out.println("GolfBot: Hello gentleman!");
+      System.out.println("SoccerBot and FootballBot: Hello, we cannot wait to see you play!");
+      System.out.println("GolfBot: I cannot wait to play either! ");
+      System.out.println("GolfBot:But first, meet my Caddie, CaddieBot");
+      System.out.println("CaddieBot: Hello, I am CaddieBot, I can help out anyone with anything that relates to golf! ");
+      System.out.println("SoccerBot and FootballBot: anything???");
+      System.out.println("CaddieBot: Yes, i have been playing golf for " + CaddieBot.myExperience + " years");
+      System.out.println("SoccerBot, FootballBot and GolfBot: That is a long time!");
+      System.out.println("CaddieBot: Yes, yes it is. ");
+      System.out.println("CaddieBot: I have been a caddie for so long that I can pull a club out of your bag at " + CaddieBot.myPulloutspeed + "mph");
+      System.out.println("SoccerBot, FootballBot and GolfBot: That is so fast!!!");
+      System.out.println("CaddieBot: Yes, and I have helped over " + CaddieBot.myBighelpfulness + " people");
+      System.out.println("SoccerBot, FootballBot and GolfBot: Allright, lets play some golf!");
+      System.out.println("*All drive off into the sunset in a golf cart*");
 
       
