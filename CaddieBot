@@ -1,0 +1,26 @@
+public class CaddieBot extends Chatbot
+{
+public CaddieBot()
+   {
+      myBighelpfulness = 500;  // how mnay people he has helped
+      myPulloutspeed = 50; // Mph
+      myExperience= 11; // # of yers playig golf
+
+   }
+ public int getBighelpfulness()
+ {
+   return myBighelpfulness; 
+ }
+public int getmyPulloutspeed()
+ {
+   return myPulloutspeed;
+ }
+
+ ////////////////////////////////////////
+ 
+public int myBighelpfulness;
+public int myPulloutspeed;
+public int myExperience;
+
+
+}
